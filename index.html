@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta name="description"
+    content="A Simple Bookmark Manager - A clean and simple interface to organize your favourite websites">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito:800" rel="stylesheet">
+
+  <!-- Google fonts for the website -->
+  <title>UX Experts</title>
+</head>
+
+<body>
+  <!-- boom section starts here -->
+  <section class="boom">
+    <nav>
+      <!-- <a href="#"><img src="https://bookmark-landing-page-jade.vercel.app/images/logo-bookmark.svg" alt="bookmark logo"
+          id="logo"></a> -->
+          <h1>WebLab</h1>
+      <ul>
+        <li><a href="#feature">features</a></li>
+        <li><a href="#pricing">pricing</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#" id="form-open" class="button">login</a></li>
+      </ul>
+      <img src="images/icon-hamburger.svg" alt="hamburger menu" class="mobile-menu" id="mobileMenu">
+    </nav>
+    <div class="boom-row">
+      <div class="left-col">
+        <div class="left-col-text">
+          <h1>The UX design agency
+            that helps you grow</h1>
+          <p>
+            We create web applications for small and medium businesses.
+            Our UX design expertisemeans we priortitize the people who matter most
+            -users
+          </p>
+          <div class="boom-links">
+            <a href="#">Reach Out To Us</a>
+            <a href="#">Projects</a>
+          </div>
+        </div>
+      </div>
+      <div class="right-col">
+        <img src="https://bookmark-landing-page-jade.vercel.app/images/illustration-hero.svg"
+          alt="bookmark illustration">
+      </div>
+    </div>
+  </section>
+  <div class="mobile-navigation" id="mobileNav">
+    <nav>
+      <ul>
+        <li><a href="#">features</a></li>
+        <li><a href="#">pricing</a></li>
+        <li><a href="#">contact</a></li>
+        <!-- <li><a href="#">login</a></li> -->
+        <button class="button" id="form-open">Login</button>
+      </ul>
+      <ul>
+        <li><a href="#"><img src="https://bookmark-landing-page-jade.vercel.app/images/icon-facebook.svg"
+              alt="facebook icon"></a></li>
+        <li><a href="#"><img src="https://bookmark-landing-page-jade.vercel.app/images/icon-twitter.svg"
+              alt="twitter icon"></a></li>
+      </ul>
+    </nav>
+  </div>
+  <section class="home">
+    <div class="form_container">
+      <i class="uil uil-times form_close"></i>
+      <!-- Login From -->
+      <div class="form login_form">
+        <form action="#">
+          <h2>Login</h2>
+          <div class="input_box">
+            <input type="email" placeholder="Enter your email" required />
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Enter your password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <div class="option_field">
+            <span class="checkbox">
+              <input type="checkbox" id="check" />
+              <label for="check">Remember me</label>
+            </span>
+            <a href="#" class="forgot_pw">Forgot password?</a>
+          </div>
+          <button class="button">Login Now</button>
+          <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+        </form>
+      </div>
+      <!-- Signup From -->
+      <div class="form signup_form">
+        <form action="#">
+          <h2>Signup</h2>
+          <div class="input_box">
+            <input type="email" placeholder="Enter your email" required />
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Create password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Confirm password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <button class="button">Signup Now</button>
+          <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+      </div>
+    </div>
+    </form>
+    <!-- Features section starts here -->
+    <section class="features" id="feature">
+      <h2>Features</h2>
+      <p>Our aim is to Create Online awereness for your product or services<br>Visualize your Products<br>Make It go
+        viral.
+      </p>
+      <div class="features-controller">
+        <p class="control active">Easy Connections in one click</p>
+        <p class="control">Proficient Developer</p>
+        <p class="control">Large online Awareness</p>
+      </div>
+      <div class="features-tab">
+        <div class="left-col">
+          <img src="https://bookmark-landing-page-jade.vercel.app/images/illustration-features-tab-3.svg"
+            alt="features illustration" id="image">
+        </div>
+        <div class="right-col">
+          <h3 id="heading">Easy Connection in one click</h3>
+          <p id="paragraph">Swift connections with programmers who can deliver the quality work you need.
+          </p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="test">
+
+        <div class="number">1</div>
+        <div id="flex">
+          <img src="https://angle2.agency/wp-content/uploads/section-timeline-item1.svg" alt="">
+        </div>
+        <div>
+          <h4 id="hard">Hard to find designers who can grasp complex systems?</h4>
+          <p id="matter">No matter the scope of your system, our Ux experts will find a practical design solution.</p>
+          <p id="hire">Hire UX designers</p>
+        </div>
+
+      </div>
+      <div class="test">
+        <div class="number">2</div>
+        <div>
+          <img src="https://angle2.agency/wp-content/uploads/section-timeline-item2.svg" alt="">
+        </div>
+        <div>
+          <h4 id="hard">Want to turn your idea into a real business?</h4>
+          <p id="matter">We take you through the journey of planning, designing and building a growth-ready web app.</p>
+          <p id="hire">Get full-cycle development</p>
+        </div>
+      </div>
+      <div class="test">
+        <div class="number">3</div>
+        <div>
+          <img src="https://angle2.agency/wp-content/uploads/section-timeline-item3.svg" alt="">
+        </div>
+        <div>
+          <h4 id="hard">Does your legacy system block your growth?</h4>
+          <p id="matter">we'll help you implement a full design for better usability and scalability.</p>
+          <p id="hire">Redesign your app</p>
+        </div>
+      </div>
+      <div class="test">
+        <div class="number">4</div>
+        <div>
+          <img src="https://angle2.agency/wp-content/uploads/section-timeline-item4.svg" alt="">
+        </div>
+        <div>
+          <h4 id="hard">Dealing with inconsistent design?</h4>
+          <p id="matter">we"ll rework your UX/UI for clean design throughtout your web app</p>
+          <p id="hire">Get consistent design</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Download extension section starts here -->
+    <!-- <section class="download">
+      <h2 id="we">We are browser friendly</h2>
+      <h2>Download the extension</h2>
+      <p>We’ve got more browsers in the pipeline. Please do let us know if<br> you’ve got a favourite you’d like us to
+        prioritize</p>
+      <div class="download-row">
+        <div class="download-col">
+          <img src="https://bookmark-landing-page-jade.vercel.app/images/logo-chrome.svg" alt="chrome logo">
+          <h3>Add to Chrome</h3>
+          <p>Minimum version 62</p>
+          <hr>
+          <a href="#">Add & Install Extension</a>
+        </div>
+        <div class="download-col">
+          <img src="https://bookmark-landing-page-jade.vercel.app/images/logo-firefox.svg" alt="firefox logo">
+          <h3>Add to Firefox</h3>
+          <p>Minimum version 55</p>
+          <hr>
+          <a href="#">Add & Install Extension</a>
+        </div>
+        <div class="download-col">
+          <img src="https://bookmark-landing-page-jade.vercel.app/images/logo-opera.svg" alt="opera logo">
+          <h3>Add to Opera</h3>
+          <p>Minimum version 46</p>
+          <hr>
+          <a href="#">Add & Install Extension</a>
+        </div>
+      </div>
+    </section> -->
+
+
+    <section class="container" id="pricing">
+    <div class="card" class="card-1">
+      <h2> Basic </h2>
+      <h3> $80 </h3>
+      <p> Suitable for small business</p> 
+      <ul>
+        <li class="aval"> Responsive framework</li>
+        <li class="aval"> Quality Design </li>
+        <li class="aval"> UI Design</li>
+        <li class="unaval"> 24/7 support</li>
+      <button class="select"> Choose this plan</button>
+      </ul>
+      </div>
+    <div class="card" class="card-2" class="hot-badge">
+      <h2> Standard</h2>
+      <h3> $120 </h3>
+        
+      <p> Suitable for Intermediate business</p>
+      <ul>
+        <li class="aval"> Responsive framework</li>
+        <li class="aval"> Quality Design</li> 
+        <li class="aval"> UX Design</li>
+        <li class="unaval"> 24/7 support</li>
+      <button class="select"> Choose this plan</button>
+      </ul>
+      </div>
+    <div class="card" class="card-3">
+      <h2> Expertise</h2>
+      <h3> $200 </h3>
+        <!-- <span> /mo.  </span> -->
+      <p> Suitable for businesses</p>
+      <ul>
+        <li class="aval"> Responsive Framework</li>
+        <li class="aval"> Quality Design </li>
+        <li class="aval"> UI/UX Design</li>
+        <li class="aval"> 24/7 support</li>
+        <button class="select"> Choose this plan</button>
+    </ul>
+    </div>
+  </section>
+
+
+
+
+
+
+
+    <!-- FAQ section starts here -->
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <p>Here are some of our FAQs. If you have any other questions<br> you’d like answered please feel free to email
+        us.</p>
+      <ul class="banner">
+        <li>
+          <div class="text">
+            Are prices negotiatable? <img src="https://bookmark-landing-page-jade.vercel.app/images/icon-arrow.svg"
+              alt="arrow">
+          </div>
+
+          <div class="drop-down-text">
+            <p>
+              Yes, depending on the complexity and design of the site you want. 
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="text">
+            How can I Trust the developer? <img
+              src="https://bookmark-landing-page-jade.vercel.app/images/icon-arrow.svg" alt="arrow">
+          </div>
+          <div class="drop-down-text">
+            <p>
+              You pay after the work has been done.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="text">
+            Can I get a domain Name? <img src="https://bookmark-landing-page-jade.vercel.app/images/icon-arrow.svg"
+              alt="arrow">
+          </div>
+          <div class="drop-down-text">
+            <p>
+              Yes, its part of the package
+          </div>
+        </li>
+        <li>
+          <div class="text">
+            Do I need to pay another money for advertisement? <img
+              src="https://bookmark-landing-page-jade.vercel.app/images/icon-arrow.svg" alt="arrow">
+          </div>
+          <div class="drop-down-text">
+            <p>
+               No, the advertisement is free
+            </p>
+          </div>
+        </li>
+      </ul>
+      <a href="#" class="btn">More Info</a>
+    </section>
+    <!-- Contact Us section starts here -->
+    <section id="contact">
+
+      <section class="contact" id="contact">
+
+        <div class="reach">
+          <p>Don't hesitate to reach out to us</p>
+          <button><a href="https://wa.me/qr/OBCI37NYTJEDD1"> Click me</a></button>
+        </div>
+        <p id="dont">The function of good software is to make the complex appear to be simple</p>
+        <h3>35,000+ already joined</h3>
+        <h4>Stay up-to-date with what<br> we’re doing</h4>
+        <form action="#" autocomplete="off" id="formbox" onsubmit="return validateForm()">
+          <input type="text" required placeholder="Enter your email address" id="email" class="input">
+          <img src="images/icon-error.svg" alt="error icon" class="error" id="img">
+          <button type="submit">Contact Us</button>
+          <span id="alert"></span>
+        </form>
+      </section>
+    </section>
+</body>
+<!-- Footer starts here -->
+<footer>
+  <nav>
+    <a href="#"><img src="https://bookmark-landing-page-jade.vercel.app/images/logo-bookmark.svg"
+        alt="bookmark logo"></a>
+    <ul class="links">
+      <li><a href="#">features</a></li>
+      <li><a href="#">pricing</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
+    <ul class="social-links">
+      <li><a href="#"><img src="https://bookmark-landing-page-jade.vercel.app/images/icon-facebook.svg"
+            alt="facebook icon"></a></li>
+      <li><a href="#"><img src="https://bookmark-landing-page-jade.vercel.app/images/icon-twitter.svg"
+            alt="twitter icon"></a></li>
+    </ul>
+  </nav>
+
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/uzochukwuokafor/" target="_blank">oyinlolaisrael</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+      Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/uzochukwuokafor/" target="_blank" rel="noopener">Hizzyposh</a>.
+  </p>
+</footer>
+<script src="demo.js"></script>
